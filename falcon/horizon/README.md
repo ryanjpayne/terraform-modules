@@ -106,7 +106,7 @@ terraform destroy
 How It Works
 ------------
 
-This terraform configuration will leverage two modules: one to **register** the AWS Accounts and one to **provision** CSPM-required resources.
+This terraform configuration will leverage two modules: one to **register** the AWS Accounts with the Horizon service and one to **provision** CSPM-required resources.
 
 ### register module
 This only applies to the AWS Organization Management Account
