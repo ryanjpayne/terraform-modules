@@ -51,7 +51,8 @@ exclude_regions = [
     us-east-2 << This region would be excluded
 ```
 
-> **Note** <br> How to provision multiple accounts:
+> **Note** <br>
+> **Provision multiple accounts:**
 > In main.tf duplicate the following local, provider and module blocks for each additional account you wish to provision. You will need to increment numeral values eg. account_2, provision_2, account_3, provision_3 etc
 
 ```
